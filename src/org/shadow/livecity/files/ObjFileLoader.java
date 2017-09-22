@@ -259,7 +259,7 @@ public class ObjFileLoader {
                         translateUVIndex(transposedTriple.getVt())
                 );
                 uv[uv_pointer++] = vector2.getX();
-                uv[uv_pointer++] = vector2.getY();
+                uv[uv_pointer++] = 1 - vector2.getY();
         }
 
         indices = new short[indexArraySize];

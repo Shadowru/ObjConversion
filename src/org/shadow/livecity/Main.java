@@ -13,7 +13,7 @@ public class Main {
         String fileName = "./files/in/Palace_Of_Soviets.obj";
         //fileName = "./files/in/MSK_Radisson_Royal_Hotel2.obj";
         //fileName = "./files/in/MFA building.obj";
-        fileName = "./files/in/MSK_Radisson_Royal_Hotel.obj";
+        //fileName = "./files/in/MSK_Radisson_Royal_Hotel.obj";
 
         ObjFileLoader objFileLoader = new ObjFileLoader(fileName);
 
